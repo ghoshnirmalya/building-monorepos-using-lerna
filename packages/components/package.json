@@ -1,0 +1,24 @@
+{
+  "name": "components",
+  "version": "0.0.0",
+  "description": "React.js components library",
+  "author": "Nirmalya Ghosh <nirmalya.email@gmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "source": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "dev": "microbundle watch --jsx React.createElement"
+  },
+  "devDependencies": {
+    "microbundle": "^0.11.0"
+  }
+}
