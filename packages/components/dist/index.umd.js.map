@@ -1,0 +1,1 @@
+{"version":3,"file":"index.umd.js","sources":["../lib/index.js"],"sourcesContent":["\"use strict\";\n\nmodule.exports = components;\n\nfunction components() {\n  console.log(\"Front components package!\");\n}\n"],"names":["module","exports","console","log"],"mappings":"0IAEAA,OAAOC,QAEP,WACEC,QAAQC,IAAI"}

@@ -3,5 +3,5 @@
 module.exports = components;
 
 function components() {
-  // TODO
+  console.log("Front components package!");
 }
