@@ -1,7 +1,7 @@
 "use strict";
 
-module.exports = components;
+import Button from "./button";
 
-function components() {
-  console.log("Front components package!");
-}
+module.exports = {
+  Button
+};
