@@ -1,16 +1,16 @@
 {
   "name": "front-end",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export"
   },
   "dependencies": {
     "next": "9.3.2",
     "react": "16.13.0",
     "react-dom": "16.13.0",
-    "components": "0.0.0"
+    "components": "0.0.1"
   }
 }

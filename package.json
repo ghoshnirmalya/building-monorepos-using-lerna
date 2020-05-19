@@ -1,6 +1,10 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "building-monorepos-using-lerna",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "nirmalya.email@gmail.com",
+  "license": "MIT",
+  "description": "",
   "devDependencies": {
     "lerna": "^3.20.2"
   }
