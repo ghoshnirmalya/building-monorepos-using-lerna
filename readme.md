@@ -13,9 +13,29 @@ This is a boilerplate for building mono-repo applications using [Lerna](https://
 1. [**front-end**](https://github.com/ghoshnirmalya/building-monorepos-using-lerna/tree/master/packages/front-end): Next.js application which uses the [Button component from the component package](https://github.com/ghoshnirmalya/building-monorepos-using-lerna/blob/master/packages/front-end/pages/index.js#L2)
 4. [**components**](https://github.com/ghoshnirmalya/building-monorepos-using-lerna/tree/master/packages/components): Sample React.js application with Storybook for creating a Design System
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [Overview](#overview)
+- [Demo](#demo)
+- [Requirements](#requirements)
+- [Installation](#installation)
+  - [1. **Clone the application**](#1-clone-the-application)
+  - [2. **Install Lerna globally**](#2-install-lerna-globally)
+  - [3. **Bootstrap the packages**](#3-bootstrap-the-packages)
+  - [4. **Start the packages**](#4-start-the-packages)
+- [License](#license)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Overview
 
 This boilerplate is built using [Lerna](https://lerna.js.org/) for managing all the packages in a simple manner. Because of Lerna, it becomes very easy to install, develop and maintain a mono-repo structure.
+
+## Demo
+
+A demo of this application is hosted [here](https://lerna-monorepo.now.sh/).
 
 ## Requirements
 
