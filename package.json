@@ -1,5 +1,6 @@
 {
   "name": "building-monorepos-using-lerna",
+    "private": true,
   "version": "1.0.0",
   "keywords": [],
   "author": "nirmalya.email@gmail.com",
