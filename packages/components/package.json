@@ -16,7 +16,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1",
     "dev": "microbundle watch --jsx React.createElement lib/*.js",
     "storybook": "start-storybook -p 6006",
-    "build": "exit 0",
+    "build": "microbundle lib/*.js",
     "build-storybook": "build-storybook"
   },
   "devDependencies": {
