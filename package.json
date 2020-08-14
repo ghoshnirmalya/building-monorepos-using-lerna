@@ -5,6 +5,9 @@
   "author": "nirmalya.email@gmail.com",
   "license": "MIT",
   "description": "Sample application which shows how to build monorepos using Lerna",
+  "scripts": {
+    "build": "run build --stream"
+  },
   "devDependencies": {
     "lerna": "^3.20.2"
   }
