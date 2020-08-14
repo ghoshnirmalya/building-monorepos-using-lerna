@@ -1,3 +1,3 @@
 install: 
 	lerna bootstrap
-	lerna run build --parallel
+	lerna run build --stream
