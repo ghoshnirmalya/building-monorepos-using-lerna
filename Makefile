@@ -1,3 +1,5 @@
 install: 
 	lerna bootstrap
-	lerna run build --stream
+	cd packages/components
+	yarn build
+ 
