@@ -1,5 +1,3 @@
 install: 
 	lerna bootstrap
-	cd packages/components
-	ls
- 
+	lerna run build --stream
