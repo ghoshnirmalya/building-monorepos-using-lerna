@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "cd .. & lerna bootstrap & lerna run build & cd packages/front-end & next build",
     "start": "next start",
     "export": "next export"
   },
