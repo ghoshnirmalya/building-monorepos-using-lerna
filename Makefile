@@ -1,5 +1,7 @@
 lerna = ./node_modules/.bin/lerna
 
 install: 
-	yarn
+	@which yarn &>/dev/null || \
+		(echo yarn is not installed: https://github.com/yarnpkg/yarn && false)
+
 	
