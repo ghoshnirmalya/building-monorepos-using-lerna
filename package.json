@@ -5,8 +5,10 @@
   "keywords": [],
   "author": "nirmalya.email@gmail.com",
   "license": "MIT",
+  "scripts": {
+    "bootstrap": "lerna bootstrap"
+  },
   "description": "Sample application which shows how to build monorepos using Lerna",
-  "bootstrap": "lerna bootstrap",
   "workspaces": [
     "packages/*"
   ],
