@@ -6,7 +6,7 @@
   "author": "nirmalya.email@gmail.com",
   "license": "MIT",
   "scripts": {
-    "bootstrap": "lerna bootstrap & lerna run build"
+    "bootstrap": "lerna bootstrap & lerna run build --stream"
   },
   "description": "Sample application which shows how to build monorepos using Lerna",
   "workspaces": [
