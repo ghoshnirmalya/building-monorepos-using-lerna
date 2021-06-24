@@ -1,5 +1,6 @@
 [build]
-base="packages/front-end"
+publish = "packages/front-end/out"
+command = "lerna run build"
 
 [[plugins]]
 package="@netlify/plugin-nextjs"

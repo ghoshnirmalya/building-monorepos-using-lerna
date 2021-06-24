@@ -27,3 +27,4 @@ yarn-error.log*
 # Local Netlify folder
 .netlify
 yarn.lock
+netlify/functions/next_*
