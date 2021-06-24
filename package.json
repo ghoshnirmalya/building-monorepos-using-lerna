@@ -6,7 +6,8 @@
   "license": "MIT",
   "description": "Sample application which shows how to build monorepos using Lerna",
   "scripts": {
-    "postinstall": "lerna bootstrap"
+    "build": "lerna run build",
+    "build:netlify": "lerna bootstrap && yarn build"
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "github:netlify/netlify-plugin-nextjs#monorepo-weirdness",
